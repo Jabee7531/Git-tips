@@ -11,6 +11,12 @@
 
 
 ## git log
+1. git log -p(--patch)
+<br/> 커밋의 diff 결과를 보여준다
+2. git log --graph
+<br/> 브랜치와 머지 히스토리 정보까지 아스키 그래프로 보여준다.
+2. git log --pretty
+<br/> 지정한 형식으로 보여준다. 이 옵션에는 oneline, short, full, fuller, format이 있다. format은 원하는 형식으로 출력하고자 할 때 사용한다.
 
 
 ## git checkout
