@@ -1,10 +1,24 @@
+## git init
+1. git init
+<br/>새로운 Git 저장소 생성
+
+## git status
+1. git status
+<br/>현재 stage 상태를 확인
+
+### 파일의 상태 메세지들 
+- Tracked : 관리대상
+- Modified : 수정됨
+- Unmodified : 수정안됨
+- Staged : 커밋 대상
+- Untracked : 관리대상 아님
+
+
 ## git config
 1. git config --global user.name "<u>내 이름</u>"
 
 1. git config --global user.email "<u>내 메일주소</u>"
 
-
-## git status
 
 
 ## git commit "<u>내용</u>"
