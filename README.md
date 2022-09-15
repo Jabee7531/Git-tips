@@ -19,9 +19,13 @@
 
 1. git config --global user.email "<u>내 메일주소</u>"
 
+## git add
+1. git add -A
+<br/> 모든 파일의 변경사항을 추가
 
-
-## git commit "<u>내용</u>"
+## git commit
+1. git commit -m "<u>내용</u>"
+<br/>추가된 변경 사항을 이력에 추가
 
 
 ## git log
