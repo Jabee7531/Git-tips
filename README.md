@@ -36,6 +36,9 @@
 2. git log --pretty
 <br/> 지정한 형식으로 보여준다. 이 옵션에는 oneline, short, full, fuller, format이 있다. format은 원하는 형식으로 출력하고자 할 때 사용한다.
 
+## git diff
+1. git diff <브랜치이름><다른 브랜치이름>
+<br/> 
 
 ## git checkout
 1. git checkout -b <u>브랜치 이름</u>
