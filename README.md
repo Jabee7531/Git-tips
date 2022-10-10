@@ -19,6 +19,9 @@
 
 1. git config --global user.email "<u>내 메일주소</u>"
 
+1. git config --list
+<br/> config 보기
+
 ## git add
 1. git add -A
 <br/> 모든 파일의 변경사항을 추가
@@ -27,6 +30,11 @@
 1. git commit -m "<u>내용</u>"
 <br/>추가된 변경 사항을 이력에 추가
 
+1. git commit --amend -m "overide message"
+<br/>이전 커밋을 포함하여 새 commit 
+
+1. git commit --amend --no-edit
+<br/> 이전 커밋에 추가
 
 ## git log
 1. git log -p(--patch)
