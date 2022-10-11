@@ -36,6 +36,23 @@
 1. git commit --amend --no-edit
 <br/> 이전 커밋에 추가
 
+## git stash
+
+1. git stash 
+<br/> 작업을 임시로 저장
+
+1. git stash list
+<br/> stash 목록을 확인
+
+1. git stash apply
+<br/> stash 내용 복구
+
+1. git stash pop
+<br/> stash를 pop
+
+1. git stash drop
+<br/> 가장 최근의 stash 제거
+
 ## git log
 1. git log -p(--patch)
 <br/> 커밋의 diff 결과를 보여준다
