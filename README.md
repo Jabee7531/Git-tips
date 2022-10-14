@@ -71,6 +71,18 @@
 1. git diff <브랜치이름><다른 브랜치이름>
 <br/> 
 
+## git branch
+1. git branch branch_name
+    + 브랜치 생성하기
+2. git branch -r
+    + 원격 브랜치 목록보기
+3. git branch -a
+    + 로컬 브랜치 목록보기
+4. git branch -m branch_name change_branch_name
+    + 브랜치 이름 바꾸기
+5. git branch -d branch_name
+    + 브랜치 삭제하기
+
 ## git checkout
 1. git checkout -b <u>브랜치 이름</u>
 <br/>
@@ -85,6 +97,8 @@
 ## git push
 1. git push --all
     + 모든 브랜치를 푸쉬
+2. git push remote_name — delete branch_name
+    + 원격 브랜치 삭제하기
 <br/>
 
 ## git pull
